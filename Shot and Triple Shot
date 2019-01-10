@@ -15,7 +15,7 @@
                 _timeToShoot = Time.time + _cooldown;
                 Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.9f, 0), Quaternion.Euler(new Vector3(0f, 0f, 0f)));
                 Instantiate(_laserPrefab, transform.position + new Vector3(0.4f, 0.8f, 0), Quaternion.Euler(new Vector3(0f, 0f, -45f)));
-                Instantiate(_laserPrefab, transform.position + new Vector3(-0.4f, -0.8f, 0), Quaternion.Euler(new Vector3(0f, 0f, 45f)));
+                Instantiate(_laserPrefab, transform.position + new Vector3(-0.4f, 0.8f, 0), Quaternion.Euler(new Vector3(0f, 0f, 45f)));
             }
         }
     }
